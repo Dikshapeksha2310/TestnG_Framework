@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+
+<suite name="Suite" parallel="methods" >
+  <test thread-count="5" name="Test">
+	<!--  <parameter name="browser" value="firefox"></parameter>-->
+	 <!--<groups>
+		  <define name="daily_build">
+			    <include name="sanity"/>
+		  		
+		  </define>
+		  
+		   <run>
+		  		<include name="daily_build"/>
+		  	
+		   </run>
+	  </groups>-->
+	  
+    <classes>
+      <!--<class name="TestNG.Sampl1"/>
+     
+   
+      <class name="TestNG.Sample2"/>
+       <class name="TestNG.Grouping_testcase"/>-->
+      <!-- <class name="TestNG.Parllel_execution"/>-->
+        <!-- <class name="TestNG.parameterised_test"/>-->
+        <class name="TestNG.Listner_Checkpass_TC"/>
+         <class name="TestNG.listner_failed_TC"/>
+        
+       
+        
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
