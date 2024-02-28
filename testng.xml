@@ -17,15 +17,19 @@
 	  </groups>-->
 	  
     <classes>
-      <!--<class name="TestNG.Sampl1"/>
-     
-   
+		
+      
+     <class name="TestNG.Sampl1"/>
+     <!--
+    <class name="TestNG.softassert_eg"/>
       <class name="TestNG.Sample2"/>
        <class name="TestNG.Grouping_testcase"/>-->
       <!-- <class name="TestNG.Parllel_execution"/>-->
         <!-- <class name="TestNG.parameterised_test"/>-->
-        <class name="TestNG.Listner_Checkpass_TC"/>
-         <class name="TestNG.listner_failed_TC"/>
+       <!-- <class name="TestNG.Listner_Checkpass_TC"/>-->
+      <!--   <class name="TestNG.listner_failed_TC"/>-->
+     
+      
         
        
         

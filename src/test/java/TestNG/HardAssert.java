@@ -12,7 +12,7 @@ import org.testng.annotations.Test;
 
 
 public class HardAssert {
-	@SuppressWarnings("deprection")
+	//@SuppressWarnings("deprection")
 	@Test
 	public void testhardassert() throws InterruptedException
 	{
@@ -23,9 +23,9 @@ public class HardAssert {
 
 		  driver.manage().window().maximize();
 		  Thread.sleep(1000);
-//in hard assert if anything is fail it not work for next here tithle is wrong so the username is not added
-		  String actualTitle = driver.getTitle();
-		  String expectedTitle = "Orange";
+//in hard assert if anything is fail it not work for next here title is wrong so the username is not added
+		  String actualTitle = driver.getTitle(); //actual is [HRM]
+		  String expectedTitle = "Orange";  //here[Orange] so it not match so it failed
 		  Assert.assertEquals(expectedTitle, actualTitle);
 		  driver.findElement(By.xpath("//input[@name='username']")).sendKeys("Admin");
 		  driver.close();

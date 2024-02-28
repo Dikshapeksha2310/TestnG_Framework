@@ -3,11 +3,11 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="TestNG.Listner_testfailedsuccess_percentage">
+      <class name="TestNG.HardAssert">
         <methods>
-          <include name="toCheckFailedtc_listner"/>
+          <include name="testhardassert"/>
         </methods>
-      </class> <!-- TestNG.Listner_testfailedsuccess_percentage -->
+      </class> <!-- TestNG.HardAssert -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
